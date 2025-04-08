@@ -12,7 +12,12 @@ nav a {
 main{
     max-width: 1000px;
 }
-
+body{.caveat-brush-regular {
+    font-family: "Caveat Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+}
 h1{
     color: darkblue;
 }
