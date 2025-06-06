@@ -3,7 +3,7 @@
     --secondary-color: #011936;
     --accent1-color: #011936;
     --accent2-color: #B4A0E5;
-    --accent3-color: #B084CC;
+    --accent3-color: #3d095e;
     --heading-font: "Caveat", sans-serif;
     --body-font: "Lato", sans-serif;
 }
@@ -32,7 +32,7 @@ header, main, footer {
 
 h1, h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--accent3-color);
 }
 
 nav, p, section, article {
