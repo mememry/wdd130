@@ -12,13 +12,13 @@
         <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <img src="images/z-rapids-trees.jpg" alt="Rapidz Whitewater Rafting" width="200">
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="about.html">About Us</a>
-                <a href="trips.html">Trips</a>
-                <a href="contact.html">Contact Us</a>
+        <header class="header-container">
+            <img src="images/z-rapids-trees.jpg" alt="Rapidz Whitewater Rafting" width="200" class="logo">
+            <nav class="nav-elements">
+                <a href="index.html" class="item-home">Home</a>
+                <a href="about.html" class="item-about">About Us</a>
+                <a href="trips.html" class="item-trips">Trips</a>
+                <a href="contact.html" class="item-contact">Contact Us</a>
             </nav>
         </header>
         <main>
@@ -29,21 +29,32 @@
                     <img src="images/rafters_triumphant.jpg" alt="Happy rafters after a successful trip" width=100>
                 </article>
             </div>
-            <section>
-                <h2>History</h2>
-                <p>Rapidz Whitewater Rafting has been joyfully guiding adventurers for over 10 years.</p>
+            <section class="history">
+                <h2 class="history-title">History</h2>
+                <p class="part-1">Rapidz Whitewater Rafting has been joyfully guiding rafting expeditions for over 10 years.</p>
+                <img src="images/rafting_overview.jpg" alt="Rafting in a rocky river" width=400 class="history-image">
+                <p class="part-2">There are rafting adventures for every level of experience from peaceful glides through beautiful scenery to challenging whitewater thrill expeditions!</p>
             </section>
-            <section>
-                <h2>Adventure Awaits You!</h2>
-                <img src="images/rafting_adventures.jpg" alt="Thrills and adventures" width=100>
-                <img src="images/rafting_scenic_views.jpg" alt="Beautiful scenery" width=100>
-                <img src="images/rafting_river.jpg" alt="Winding rivers" width=100>
-                <img src="images/rafting_contrasts.jpg" alt="Whitewater - fast and slow" width=100>
-                <img src="images/rafting_overview.jpg" alt="Rafting in a rocky river" width=100>
+            <section class="adventure-images">
+                <h2 class="adventure-images-header">Adventure Awaits You!</h2>
+                <figure>
+                    <img src="images/rafting_adventures.jpg" alt="Thrills and adventures" width=100 class="adv-img-1"><figcaption class="adv-cap-1">Thrills and Adventures</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting_scenic_views.jpg" alt="Beautiful scenery" width=100 class="adv-img-2"><figcaption class="adv-cap-2">Beautiful Scenery</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting_river.jpg" alt="Winding rivers" width=100 class="adv-img-3"><figcaption class="adv-cap-3">Winding Rivers</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting_contrasts.jpg" alt="Whitewater - fast and slow" width=100 class="adv-img-4"><figcaption class="adv-cap-4">Whitewater - fast and slow</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting_overview.jpg" alt="Rafting in a rocky river" width=100 class="adv-img-5"><figcaption class="adv-cap-5">Rafting in a Rocky River</figcaption>
+                </figure>
             </section>
         </main>
         <footer>
-            <p>©2025 🌳 Melanie Emry 🌳</p>
             <nav class='socialmedia'>
                 <a href="https://www.facebook.com/">
                     <img src="images/facebook.webp" alt="Facebook">
@@ -55,6 +66,7 @@
                     <img src="images/instagram.webp" alt="Instagram">
                 </a>
             </nav>
+            <p class="copyright">©2025 🌳 Melanie Emry 🌳</p>
         </footer>
     </body>
 </html>
