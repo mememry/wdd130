@@ -1,0 +1,108 @@
+:root {
+    --primary-color: #b1eaf5;
+    --secondary-color: #e620cb;
+    --body-font: "Open Sans", sans-serif;
+    --header-font: "Hunnin", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:"Open Sans";
+    color:darkblue;
+    background-color:azure;
+}
+
+header {
+    color: blueviolet;
+}
+
+h1 {
+
+}
+
+form {
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    background-color:blanchedalmond;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 2px;
+
+}
+
+label,
+input,
+button,
+select,
+textarea {
+    font-family: "Hunnin";
+    color:brown
+}
+
+label {
+    text-align: right;
+    padding-right: 2px;
+}
+
+input,
+textarea {
+    padding: 0.5rem;
+    font-size: 1.1em;
+}
+
+
+select {
+    padding: 0;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 1.1em;
+    height: 1.1em;
+    vertical-align: bottom;
+}
+
+button[type="submit"] {
+    width: 100px;
+    background-color:honeydew;
+    color:crimson;
+    text-align: center;
+}
+
+button:hover {
+    background-color:brown;
+    color:chartreuse;
+}
+
+footer {
+    color:blueviolet;
+    text-align: center;
+}
+
+.form-item{
+    display: grid;
+    align-items: center;
+}
+
+.column1{
+    grid-template-columns: 3fr 1fr;
+    margin-right: 10px;
+    gap: 2px;
+}
+
+.column2{
+    grid-template-columns: 1fr 2fr;
+    margin-right: 10px;
+    gap: 2px;
+}

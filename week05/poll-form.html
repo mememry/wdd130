@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD130 | HTML Form - User Poll</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Huninn&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <div class="form-item column2">
+                    <label for="fullname">Full name:</label>
+                    <input type="text" id="fullname" name="fullname">
+                </div>
+                <div class="form-item column2">
+                    <label for="useremail">Email address:</label>
+                    <input type="email" id="useremail" name="useremail">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <div class="form-item column1">
+                    <label for="browser">What is your favorite browser?</label>
+                    <select id="browser" name="browser">
+                        <option value="Edge">Edge</option>
+                        <option value="Firefox">Firefox</option>
+                        <option value="Chrome">Chrome</option>
+                        <option value="Opera" selected>Opera</option>
+                    </select>
+                </div>
+                <div class="form-item column1">
+                    <label for="pet">Do you have a household pet?</label>
+                    <input type="checkbox" id="pet" name="pet">
+                </div>
+                <label for="feedback">List the places you have lived.</label>                    
+                <textarea id="feedback" name="feedback" rows="10">Enter locations here</textarea>
+            </fieldset>
+            <button type="submit">Submit Poll</button>
+        </form>
+    </main>
+    <footer>
+        <p>Poll Form Week 05: Melanie Emry</p>
+    </footer>
+    
+</body>
+</html>   
