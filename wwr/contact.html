@@ -3,8 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <title>Rapidz Whitewater Rafting</title>
-        <meta name="description" content="Whitewater Rafting: Adventure for Everyone">
+        <title>Rapidz Whitewater Rafting: Contact Us</title>
+        <meta name="description" content="Whitewater Rafting: Contact Us">
         <meta name="author" content="Melanie Emry">
         <link rel="stylesheet" href="styles/rafting.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,51 +21,86 @@
                 <a href="contact.html" class="item-contact">Contact Us</a>
             </nav>
         </header>
-        <main>
-            <div class="hero">
-                <img src="images/raft_in_whitewater.jpg" alt="Whitewater Rafting" width=100>
-                <h1>Rapidz Whitewater Rafting</h1>
-                <article>
-                    <img src="images/rafters_triumphant.jpg" alt="Happy rafters after a successful trip" width=100>
-                </article>
+        <main class="contact_main">
+            <div class="AboutUs">
+                <h2 class="AU-header">Rapidz Whitewater Rafting</h2>
+                <p class="AU-description">Rapids Whitewater Rafting is located in White Salmon, Washington, right on the line of the Cascades. With access to the best rivers in the Pacific Northwest you can enjoy tranquil views, thrilling Class V rapids, and everything in between. Let us take you on the adventure of a lifetime.</p>
+                <div class="address">
+                    <p>Mailing Address</p>
+                    <p>PO Box 2105</p>
+                    <p>White Salmon, WA 98672</p>
+                    <p>360-589-5004</p>
+                </div>
+                <div class="our_staff">
+                    <p class="meet_staff">Meet our staff!</p>
+                    <figure class="bio-1">
+                        <img src="images/backpacker.jpg" alt="Katy" width="150" class="whoweare-1"><figcaption class="whoweare-cap-1">Office manager: Kathryn Kendall</figcaption>
+                        <p class="bio-1">Katy likes to get back to basics when she's not in the office. Although she has taken many rafting trips, she also likes to go hiking on her days off.</p> 
+                    </figure>
+                    <figure>
+                        <p class="bio-2">John can't stay away from the water.  When he wants to relax, he takes a kayak out and "just paddles around."</p>
+                        <img src="images/kayaker.jpg" alt="John" width="150" class="whoweare-2"><figcaption class="whoweare-cap-2">Owner and President: John Jones</figcaption> 
+                    </figure>
+                    <figure>
+                        <img src="images/happy_rafter.jpg" alt="Suz" width="150" class="whoweare-3"><figcaption class="whoweare-cap-3">Expert Guide: Suzanne Smith</figcaption> 
+                        <p class="bio-2">Suz has been rafting since she was a child. Her parents were denizens of the river and took her with them. She took her first Class V trip when she was only thirteen.</p>
+                    </figure>
+                    <figure>
+                        <p class="bio-2">Mark and Pete are dedicated rafters. When they aren't guiding beginner excursions, they often go on rafting trips just for fun. They say it's nice to relax and enjoy the ride.</p>
+                        <img src="images/rafters_triumphant.jpg" alt="Mark and Pete" width="150" class="whoweare-4"><figcaption class="whoweare-cap-4">Guides: Mark Miller and Pete Pelham</figcaption> 
+                    </figure>
+                </div>
             </div>
-            <section class="history">
-                <h2 class="history-title">History</h2>
-                <p class="part-1">Rapidz Whitewater Rafting has been joyfully guiding rafting expeditions for over 10 years.</p>
-                <img src="images/rafting_overview.jpg" alt="Rafting in a rocky river" width=400 class="history-image">
-                <p class="part-2">There are rafting adventures for every level of experience from peaceful glides through beautiful scenery to challenging whitewater thrill expeditions!</p>
-            </section>
-            <section class="adventure-images">
-                <h2 class="adventure-images-header">Adventure Awaits You!</h2>
-                <figure>
-                    <img src="images/rafting_adventures.jpg" alt="Thrills and adventures" width=100 class="adv-img-1"><figcaption class="adv-cap-1">Thrills and Adventures</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/rafting_scenic_views.jpg" alt="Beautiful scenery" width=100 class="adv-img-2"><figcaption class="adv-cap-2">Beautiful Scenery</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/rafting_river.jpg" alt="Winding rivers" width=100 class="adv-img-3"><figcaption class="adv-cap-3">Winding Rivers</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/rafting_contrasts.jpg" alt="Whitewater - fast and slow" width=100 class="adv-img-4"><figcaption class="adv-cap-4">Whitewater - fast and slow</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/rafting_overview.jpg" alt="Rafting in a rocky river" width=100 class="adv-img-5"><figcaption class="adv-cap-5">Rafting in a Rocky River</figcaption>
-                </figure>
-            </section>
+            <form class="contact-form">
+                <div class = "text_input">
+                    <label for="name" class="name_input_label">Name: </label>
+                    <input type="text" id="name" name="name" class="name_input_box">
+                    <label for="email" class="email_input_label">Email: </label>
+                    <input type="email" id="email" name="email" class="email_input_box">
+                </div>
+                <div class="radio_button_query">
+                    <p>What type of message do you want to leave?</p>
+                    <input type="radio" id="general" name="msgtype" value="General Inquiry">
+                    <label for="general">General Inquiry</label>
+                    <input type="radio" id="reservation" name="msgtype" value="Reservation Question">
+                    <label for="reservation">Reservation Question</label>
+                    <input type="radio" id="website" name="msgtype" value="Website Suggestion" size="1.1px">
+                    <label for="website">Website Suggestion</label>
+                </div>
+                <div class="message">
+                    <label for="message">Message: </label>
+                    <textarea id="message" name="message">Please enter your message here</textarea>
+                </div>
+                <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                <input type="checkbox" id="subscribe" name="subscribe">
+                <button type="submit" id="submit" name="submit">Send your message</button>
+                
+            </form>
+
         </main>
         <footer>
-            <nav class='socialmedia'>
-                <a href="https://www.facebook.com/">
-                    <img src="images/facebook.webp" alt="Facebook">
-                </a>
-                <a href="https://www.reddit.com/">
-                    <img src="images/reddit.webp" alt="Reddit">
-                </a>
-                <a href="https://www.instagram.com/">
-                    <img src="images/instagram.webp" alt="Instagram">
-                </a>
-            </nav>
+
+            <div class="credits">
+                <p>Thanks to <a href="https://pixabay.com/users/barryrjonesjr-181324/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=282330">Barry Jones</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=282330">Pixabay</a> for the picture of the kayaker</p>
+                <p>Thanks to <a href="https://pixabay.com/users/pexels-2286921/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1836594">Pexels</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1836594">Pixabay</a> for the image of the backpack woman</p>
+                <p>Thanks to <a href="https://pixabay.com/users/brokenbeardsman-391329/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=421132">Keith Allan Moore</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=421132">Pixabay</a> for the image of the happy rafter</p>
+            </div>
+            <div class="navigables">
+                <nav class="wireframe">
+                    <a href="https://app.moqups.com/591x5KlOYVNtOsffmvzTPe2VS51ioowU/view/page/ad64222d5">This way to the wireframe.</a>
+                </nav>
+                <nav class='socialmedia'>
+                    <a href="https://www.facebook.com/">
+                        <img src="images/facebook.webp" alt="Facebook">
+                    </a>
+                    <a href="https://www.reddit.com/">
+                        <img src="images/reddit.webp" alt="Reddit">
+                    </a>
+                    <a href="https://www.instagram.com/">
+                        <img src="images/instagram.webp" alt="Instagram">
+                    </a>
+                </nav>
+            </div>
             <p class="copyright">©2025 🌳 Melanie Emry 🌳</p>
         </footer>
     </body>
