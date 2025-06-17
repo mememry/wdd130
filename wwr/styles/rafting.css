@@ -36,8 +36,6 @@ header {
     justify-content: space-around;
     align-items: center;
     height: 50px;
-    background-color: #e3d7ff;
-    color: var(--accent1-color);
     border: 0;
     padding: 0;
     margin: 0;
@@ -45,6 +43,20 @@ header {
 
 .nav-item-container {
     height: 25px;
+}
+
+.item-home,
+.item-about,
+.item-trips,
+.item-contact {
+    background-color: #e1d4ff;
+    border-radius: 5cap;
+    padding: 5px;
+    color: var(--secondary-color);
+}
+
+a {
+    text-decoration: none;
 }
 
 ul {
@@ -158,24 +170,11 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 5px;
+    align-items: end;
+    text-align: center;
 }
 
-.adv-img-1 {
 
-}
-
-.adv-img-2 {
-
-}
-.adv-img-3 {
-
-}
-.adv-img-4 {
-
-}
-.adv-img-5 {
-
-}
 
 .adv-cap-1 {
     grid-row-start: 2;
@@ -311,6 +310,8 @@ input[type=radio] {
     display: flex;
     justify-content: center;
     margin: 25px;
+    background-color: var(--accent2-color);
+    padding: 20px;
 }
 
 .adventure_link {
@@ -323,15 +324,29 @@ input[type=radio] {
 .more-links {
     display: grid;
     grid-template-columns: 50% 50%;
-
+    text-align: center;
+    align-items: end;
+    grid-gap: 10px;
+    justify-content: center;
 }
 
 .second-header {
     height: 75px;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 
+.adv-cap-1,
+.adv-cap-2,
+.adv-cap-3,
+.adv-cap-4,
+.adv-cap-5
+ {
+    background-color: var(--accent3-color);
+    border-radius: 5cap;
+    color: var(--primary-color);
+    padding: 5px;
+}
 
 /* Trips */
 
@@ -342,6 +357,7 @@ input[type=radio] {
 
 .sample-trips {
     display: grid;
+    text-align: center;
 }
 
 .trip-table {
