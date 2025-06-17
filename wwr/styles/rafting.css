@@ -201,7 +201,7 @@ h1 {
 .contact_main {
     display: grid;
     grid-template-columns: 60% 40%;
-    grid-template-rows: repeat(8 auto);
+    grid-template-rows: repeat(8, auto);
 }
 
 .wireframe {
