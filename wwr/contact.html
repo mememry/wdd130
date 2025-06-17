@@ -15,10 +15,18 @@
         <header class="header-container">
             <img src="images/z-rapids-trees.jpg" alt="Rapidz Whitewater Rafting" width="200" class="logo">
             <nav class="nav-elements">
-                <a href="index.html" class="item-home">Home</a>
-                <a href="about.html" class="item-about">About Us</a>
-                <a href="trips.html" class="item-trips">Trips</a>
-                <a href="contact.html" class="item-contact">Contact Us</a>
+                <div class="nav-item-container">
+                    <a href="https://mememry.github.io/wdd130/wwr/index.html" id="item-home" class="nav-item">Home</a>
+                </div>
+                <div class="nav-item-container">
+                    <a href="https://mememry.github.io/wdd130/wwr/about.html" id="item-about" class="nav-item">About Us</a>
+                </div>
+                <div class="nav-item-container">
+                    <a href="https://mememry.github.io/wdd130/wwr/trips.html" id="item-trips" class="nav-item">Trips</a>
+                </div>
+                <div class="nav-item-container">
+                    <a href="https://mememry.github.io/wdd130/wwr/contact.html" id="item-contact" class="nav-item">Contact Us</a>
+                </div>
             </nav>
         </header>
         <main class="contact_main">
@@ -31,51 +39,59 @@
                     <p>White Salmon, WA 98672</p>
                     <p>360-589-5004</p>
                 </div>
+                <p class="meet_staff">Meet our staff!</p>
                 <div class="our_staff">
-                    <p class="meet_staff">Meet our staff!</p>
                     <figure class="bio-1">
-                        <img src="images/backpacker.jpg" alt="Katy" width="150" class="whoweare-1"><figcaption class="whoweare-cap-1">Office manager: Kathryn Kendall</figcaption>
-                        <p class="bio-1">Katy likes to get back to basics when she's not in the office. Although she has taken many rafting trips, she also likes to go hiking on her days off.</p> 
+                        <img src="images/backpacker.jpg" alt="Katy" width="125" class="whoweare-1"><figcaption class="whoweare-cap-1">Office manager: Kathryn Kendall</figcaption>
+                        <p>Katy likes to get back to basics when she's not in the office. Although she has taken many rafting trips, she also likes to go hiking on her days off.</p> 
                     </figure>
-                    <figure>
-                        <p class="bio-2">John can't stay away from the water.  When he wants to relax, he takes a kayak out and "just paddles around."</p>
+                    <figure class="bio-2">
+                        <p>John can't stay away from the water.  When he wants to relax, he takes a kayak out and "just paddles around."</p>
                         <img src="images/kayaker.jpg" alt="John" width="150" class="whoweare-2"><figcaption class="whoweare-cap-2">Owner and President: John Jones</figcaption> 
                     </figure>
-                    <figure>
+                    <figure class="bio-3">
                         <img src="images/happy_rafter.jpg" alt="Suz" width="150" class="whoweare-3"><figcaption class="whoweare-cap-3">Expert Guide: Suzanne Smith</figcaption> 
-                        <p class="bio-2">Suz has been rafting since she was a child. Her parents were denizens of the river and took her with them. She took her first Class V trip when she was only thirteen.</p>
+                        <p>Suz has been rafting since she was a child. Her parents were denizens of the river and took her with them. She took her first Class V trip when she was only thirteen.</p>
                     </figure>
-                    <figure>
-                        <p class="bio-2">Mark and Pete are dedicated rafters. When they aren't guiding beginner excursions, they often go on rafting trips just for fun. They say it's nice to relax and enjoy the ride.</p>
+                    <figure class="bio-4">
+                        <p>Mark and Pete are dedicated rafters. When they aren't guiding beginner excursions, they often go on rafting trips just for fun. They say it's nice to relax and enjoy the ride.</p>
                         <img src="images/rafters_triumphant.jpg" alt="Mark and Pete" width="150" class="whoweare-4"><figcaption class="whoweare-cap-4">Guides: Mark Miller and Pete Pelham</figcaption> 
                     </figure>
                 </div>
             </div>
-            <form class="contact-form">
-                <div class = "text_input">
-                    <label for="name" class="name_input_label">Name: </label>
-                    <input type="text" id="name" name="name" class="name_input_box">
-                    <label for="email" class="email_input_label">Email: </label>
-                    <input type="email" id="email" name="email" class="email_input_box">
-                </div>
-                <div class="radio_button_query">
-                    <p>What type of message do you want to leave?</p>
-                    <input type="radio" id="general" name="msgtype" value="General Inquiry">
-                    <label for="general">General Inquiry</label>
-                    <input type="radio" id="reservation" name="msgtype" value="Reservation Question">
-                    <label for="reservation">Reservation Question</label>
-                    <input type="radio" id="website" name="msgtype" value="Website Suggestion" size="1.1px">
-                    <label for="website">Website Suggestion</label>
-                </div>
-                <div class="message">
-                    <label for="message">Message: </label>
-                    <textarea id="message" name="message">Please enter your message here</textarea>
-                </div>
-                <label for="subscribe">Please subscribe me to the monthly newsletter</label>
-                <input type="checkbox" id="subscribe" name="subscribe">
-                <button type="submit" id="submit" name="submit">Send your message</button>
-                
-            </form>
+            <div class="contact-form-div">
+
+                <form class="contact-form">
+                    <ul class="form-container">
+                        <li class = "text_input">
+                            <label for="name" class="name_input_label">Name:   </label>
+                            <input type="text" id="name" name="name" class="name_input_box">
+                        </li>
+                        <li class="text_input">
+                            <label for="email" class="email_input_label">Email:    </label>
+                            <input type="email" id="email" name="email" class="email_input_box">
+                        </li>
+                        <li class="radio_button_query">
+                            <p>What type of message do you want to leave?</p>
+                            <input type="radio" id="general" name="msgtype" value="General Inquiry">
+                            <label for="general" class="msgtype">General Inquiry</label>
+                            <input type="radio" id="reservation" name="msgtype" value="Reservation Question">
+                            <label for="reservation" class="msgtype">Reservation Question</label>
+                            <input type="radio" id="website" name="msgtype" value="Website Suggestion" size="1.1px">
+                            <label for="website" class="msgtype">Website Suggestion</label>
+                        </li>
+                        <li class="message">
+                            <label for="message">Message: </label>
+                            <textarea id="message" name="message" style="width: 327px; height: 147px;">Please enter your message here</textarea>
+                        </li>
+                        <li class="subscribe">
+                            <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                            <input type="checkbox" id="subscribe" name="subscribe" value="1">
+                        </li>
+                        <button type="submit" id="submit" name="submit">Send your message</button>
+                    </ul>
+                </form>
+            </div>
 
         </main>
         <footer>
