@@ -305,11 +305,14 @@ input[type=radio] {
 .newsletter-signup {
     display: flex;
     justify-content: center;
+    margin: 25px;
 }
 
 .adventure_link {
     display: flex;
     justify-content: center;
+    padding: 20px;
+    text-align: center;
 }
 
 .more-links {
@@ -318,16 +321,28 @@ input[type=radio] {
 
 }
 
+.second-header {
+    height: 75px;
+    text-align: center;
+    padding: 20px;
+}
+
 
 /* Trips */
 
 .main_trips {
     display: grid;
-    grid-template-columns: 2;
+    grid-template-columns: 50% 50%;
+}
+
+.sample-trips {
+    display: grid;
 }
 
 .trip-table {
     grid-column-start: 2;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 th, td {
@@ -342,6 +357,7 @@ table {
 
 .trip1 {
     grid-column-start: 1;
+    grid-row-start: 1;
 }
 
 .trip2 {
@@ -350,5 +366,9 @@ table {
 
 .trip3 {
     grid-column-start: 1;
+}
+
+.featured-trip {
+    text-align: center;
 }
 
