@@ -248,6 +248,11 @@ h1 {
     border-color:var(--accent2-color);
 }
 
+.our_staff {
+    text-align: center;
+    grid-column: 1/5;
+}
+
 .meet_staff {
     text-align: center;
     grid-column: 1/5;
