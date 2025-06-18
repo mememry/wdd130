@@ -252,6 +252,8 @@ h1 {
     grid-column: 1/5;
 }
 
+
+
 .meet_staff {
     text-align: center;
     grid-column: 1/5;
@@ -293,17 +295,25 @@ input[type=radio] {
 
 .radio_button_query {
     display: flex;
+    text-align: left;
+    justify-items: center;
 }
-
 .message {
     grid-row-start: 7;
 }
 
-.msgtype,
-.radio_button_query {
-    text-align: left;
+.msgtype-lbl,
+.msgtype {
+    text-align: center;
 }
 
+.msgtype {
+    margin-left: 10px;
+}
+
+.submit {
+    background-color: #e1d4ff;
+}
 
 /*Home Page*/
 .newsletter-signup {
